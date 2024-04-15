@@ -18,5 +18,13 @@ public class Cachorro extends Animal implements Corrida {
 	public void correr() {
 		System.out.println("Correndo");
 	}
+	
+	@Override
+	public String toString() {
+		return "Animal{"+
+				"nome="+ nome +"/"+
+				", idade="+ idade +
+				"}";
+	}
 
 }

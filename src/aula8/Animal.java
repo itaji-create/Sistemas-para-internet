@@ -10,4 +10,6 @@ public abstract class Animal {
 	}
 	
 	public abstract void emitirSom();
+	
+	private final TipoAnimal tipo;
 }
